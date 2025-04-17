@@ -1,3 +1,33 @@
+
+# 🐦 Twoge - Twitter Alternative Deployment with Kubernetes and AWS EKS 🚀
+
+Welcome to the deployment guide for **Twoge**, a Python Flask-based Twitter alternative! In this guide, you'll learn how to deploy Twoge on **Minikube** for local development and scale it to **AWS EKS** for production.
+
+---
+
+## 🚀 Project Overview
+
+Twoge is a simple Twitter alternative built with Python Flask. The goal of this project is to demonstrate how to deploy containerized applications using Kubernetes on Minikube and AWS EKS.
+
+**Key Features:**
+- 📦 Dockerized Python Flask app
+- 🐘 PostgreSQL database with persistent storage
+- 🔐 Configured with ConfigMaps and Secrets
+- 🌍 Exposed via LoadBalancer for AWS EKS
+- ⚙️ Optional CI/CD pipeline with GitHub Actions
+
+---
+
+## 📋 Assessment Objectives
+1. **Dockerize the Application:** Create a Docker image for the Twoge application.
+2. **Deploy on Minikube:** Set up Kubernetes deployments and services for local development.
+3. **Configure Database:** Use ConfigMaps and Secrets to configure PostgreSQL.
+4. **Namespace:** Organize resources in a dedicated namespace.
+5. **Probes:** Implement liveness or startup probes for lifecycle management.
+6. **Persistent Storage:** Attach a Persistent Volume Claim (PVC) for database persistence.
+7. **Deploy on AWS EKS:** Migrate deployment to AWS EKS with LoadBalancer.
+8. **CI/CD Pipeline:** (Optional) Implement CI/CD with GitHub Actions.
+
 # **Twoge**
 
 <h1 align="center">

@@ -28,24 +28,6 @@ Twoge is a simple Twitter alternative built with Python Flask. The goal of this 
 7. **Deploy on AWS EKS:** Migrate deployment to AWS EKS with LoadBalancer.
 8. **CI/CD Pipeline:** (Optional) Implement CI/CD with GitHub Actions.
 
----
-
-## 🗂️ Project Structure
-
-```bash
-├── Dockerfile              # Dockerfile for Twoge
-├── configmap.yaml          # ConfigMap for environment variables
-├── secrets.yaml            # Secrets for database credentials
-├── namespace.yaml          # Namespace definition
-├── twoge-deployment.yaml   # Twoge app deployment
-├── twoge-service.yaml      # Twoge app service (LoadBalancer for AWS)
-├── db-deployment.yaml      # PostgreSQL deployment
-├── db-service.yaml         # PostgreSQL service (ClusterIP)
-├── storageclass.yaml       # Storage class for persistent volumes
-├── pvc.yaml                # Persistent Volume Claim (PVC)
-```
-
----
 
 ## 🚧 Steps to Deploy
 

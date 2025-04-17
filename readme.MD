@@ -261,3 +261,17 @@ Twoge is a simple Twitter alternative built with Python Flask. The goal of this 
    ```
    minikube service twoge-service -n twoge-app
    ```
+
+## Screenshots
+
+### Docker Image Screenshot
+
+![Docker Image](https://imgur.com/dQYoe0I.png)
+
+### Application Screenshot
+
+![Twoge Application](https://imgur.com/9hPlEV5.png)
+
+### Minikube Deployment
+
+![Minikube Pods and Services](https://imgur.com/Nn5kRSL.png)

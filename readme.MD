@@ -202,7 +202,7 @@ Twoge is a simple Twitter alternative built with Python Flask. The goal of this 
 
 ## 🎯 Architecture Diagram
 
-![Twoge Architecture](https://imgur.com/a/JQghoY0)
+![Twoge Architecture](https://imgur.com/a/6ZdoGtx)
 
 
 ### Description:

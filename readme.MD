@@ -1,5 +1,5 @@
 
-# 🐦 Twoge - Twitter Alternative Deployment with Kubernetes and AWS EKS 🚀
+# 🐦 Twoge - Deployment with Kubernetes and AWS EKS 🚀
 
 Welcome to the deployment guide for **Twoge**, a Python Flask-based Twitter alternative! In this guide, you'll learn how to deploy Twoge on **Minikube** for local development and scale it to **AWS EKS** for production.
 

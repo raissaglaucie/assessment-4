@@ -220,9 +220,9 @@ Twoge is a simple Twitter alternative built with Python Flask. The goal of this 
 4. Create PostgreSQL PVC, Deployment, and Service
 
    ```
-   kubectl apply -f postgres-pvc.yaml
-   kubectl apply -f postgres-deployment.yaml
-   kubectl apply -f postgres-service.yaml
+   kubectl apply -f PostgresVolumeClaim.yaml
+   kubectl apply -f Postgres-deployment.yaml
+   kubectl apply -f Postgres-Service.yaml
    ```
 
 5. Create Twoge Deployment and Service

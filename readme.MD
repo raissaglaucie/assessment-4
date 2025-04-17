@@ -213,8 +213,8 @@ Twoge is a simple Twitter alternative built with Python Flask. The goal of this 
 3. Create ConfigMap and Secrets
 
    ```
-   kubectl apply -f configmap.yaml
-   kubectl apply -f secrets.yaml
+   kubectl apply -f Config.yaml
+   kubectl apply -f Secrets.yaml
    ```
 
 4. Create PostgreSQL PVC, Deployment, and Service
@@ -228,20 +228,20 @@ Twoge is a simple Twitter alternative built with Python Flask. The goal of this 
 5. Create Twoge Deployment and Service
 
    ```
-   kubectl apply -f twoge-deployment.yaml
-   kubectl apply -f twoge-service.yaml
+   kubectl apply -f Twoge-Deployment.yaml
+   kubectl apply -f Twoge-Service.yaml
    ```
 
 6. Verify deployments and services
 
    ```
-   kubectl get pods -n twoge-app
-   kubectl get services -n twoge-app
+   kubectl get pods -n flask-app
+   kubectl get services -n flask-app
    ```
 
 7. Access the application (using Minikube)
    ```
-   minikube service twoge-service -n twoge-app
+   minikube service Twoge-Service -n flask-app
    ```
 
 ## Screenshots
